@@ -1,0 +1,7 @@
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Visual Studio Dark"
+}

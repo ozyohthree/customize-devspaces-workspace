@@ -1,0 +1,21 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: bashrc-config
+  labels:
+      labels:
+        controller.devfile.io/mount-to-devworkspace: 'true'
+        controller.devfile.io/watch-configmap: 'true'
+      annotations:
+        controller.devfile.io/mount-as: subpath 
+        controller.devfile.io/mount-path: /home/user
+
+data:
+  .bashrc: |
+    # ~/.bashrc: executed by bash(1) for non-login shells.
+    # see /usr/share/bash/bashrc for a system wide version of this file.
+    # append with original .bashrc content if needed
+    # cat ~/.bashrc >> .bashrc
+    # To enable the settings in this file, run:
+    # source ~/.bashrc 
+    

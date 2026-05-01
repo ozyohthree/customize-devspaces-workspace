@@ -1,0 +1,15 @@
+{
+  "nameShort": "Dev Spaces",
+  "nameLong": "Red Hat OpenShift Dev Spaces",
+  "applicationName": "code-server",
+  "dataFolderName": ".code-server",
+  "extensionsGallery": {
+    "serviceUrl": "https://open-vsx.org/vscode/gallery",
+    "itemUrl": "https://open-vsx.org/vscode/item"
+  },
+  "extensionEnabledApiProposals": {
+    "redhat.vscode-openshift-connector": [
+      "terminalDataWriteEvent"
+    ]
+  }
+}
